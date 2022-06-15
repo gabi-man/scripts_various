@@ -4,6 +4,7 @@ process/
 Videos-H/
 Videos-V/
 Python/log.txt
+Bk_email_automatico/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

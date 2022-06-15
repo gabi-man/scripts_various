@@ -1,22 +1,18 @@
 #Imports
 import os
-import time
 from pathlib import Path
 import shutil
 import subprocess
+import time
 
 
 #Constants
 BASE_PATH = Path(__file__).parent.resolve()
-#BASE_PATH = Path('/home/gabriel/Documents/test/')
 input_dir = BASE_PATH / 'inputs'
 process_dir = BASE_PATH / 'process' 
 vertical_dir = BASE_PATH / 'Videos-V'
 horizontal_dir = BASE_PATH / 'Videos-H'
 date_and_time = time.strftime("%d-%m-%y_%H-%M-%S")
-
-    
-
 
 #Functions Definitions
 def search_jpg():
@@ -96,10 +92,6 @@ def move_mp4(file, resolution):
         shutil.move(os.path.join(process_dir, file), directory)
     
 
-
-    
-
- 
 
 if __name__ == '__main__':
     search_jpg()
