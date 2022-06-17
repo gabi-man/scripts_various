@@ -31,7 +31,7 @@ def make_dir():
             f"Failed to create a directory, because directory exists  --> {date_and_time}", file=open(log_file, "a"))
     else:
         print(
-            f"Directory was created successfuly: %s --> {date_and_time}", file=open(log_file, "a"))
+            f"Directory was created successfuly: --> {date_and_time}", file=open(log_file, "a"))
 
 # Check if file exists
 
